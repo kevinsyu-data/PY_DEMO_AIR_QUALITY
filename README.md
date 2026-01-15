@@ -50,7 +50,7 @@ Data Flow
 
 1. Data Ingestion
     '''Python
-    # Fetch JSON from OpenAQ API
+    Fetch JSON from OpenAQ API
     client.fetch_and_upload_to_s3(bucket_name)
     '''
 
