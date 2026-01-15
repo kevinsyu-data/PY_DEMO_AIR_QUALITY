@@ -66,14 +66,13 @@ Data Flow
         - Creates metadata in Glue Data Catalog
         - Enables querying via Redshift Spectrum
 
-    4. Data Warehouse Loading (SQL)
-        CREATE TABLE air_quality.measurements AS
-        SELECT 
-            id,
-            name,
-            locality,
-            country_name,
-            coordinates_latitude,
-            coordinates_longitude,
-            datetime_last_utc
-        FROM air_quality_glue.flatten;
+    4. Query S3 Directly (SQL)
+        - One-time setup
+            CREATE EXTERNAL SCHEMA air_quality_glue
+            FROM DATA CATALOG
+            DATABASE 'air_quality_db'
+            IAM_ROLE 'arn:aws:iam::ACCOUNT:role/ROLE'
+            REGION 'your region';
+        - Sample Query
+            SELECT * FROM air_quality.measurements LIMIT 10;
+
