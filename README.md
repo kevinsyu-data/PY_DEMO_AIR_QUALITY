@@ -22,19 +22,20 @@ Key Skills Demonstrated
     - Python Development
 
 Architecture
-        OpenAQ API
-            ↓
-        Python Script (api_client.py)
-            ↓
-        AWS S3 (Raw JSON)
-            ↓
-        AWS Glue ETL Job (Flatten)
-            ↓
-        AWS S3 (Parquet)
-            ↓
-        AWS Glue Crawler (Catalog)
-            ↓
-        AWS Redshift Spectrum
+
+    OpenAQ API
+        ↓
+    Python Script (api_client.py)
+        ↓
+    AWS S3 (Raw JSON)
+        ↓
+    AWS Glue ETL Job (Flatten)
+        ↓
+    AWS S3 (Parquet)
+        ↓
+    AWS Glue Crawler (Catalog)
+        ↓
+    AWS Redshift Spectrum
 
 Technologies Used
 - Languages: Python 3.9+
