@@ -12,13 +12,14 @@ Project Overview
     - Transact structured data using Amazon Redshift for BI and Analytics
 
 Key Skills Demonstrated
-- ETL Pipeline Development
-- REST API Utilizaiton
-- AWS Data Services (S3, Glue, Redshift)
-- JSON Data Processing & Flattening
-- Data Cataloging & Schema Management
-- SQL Query Optimization
-- Python Development
+
+    - ETL Pipeline Development
+    - REST API Utilizaiton
+    - AWS Data Services (S3, Glue, Redshift)
+    - JSON Data Processing & Flattening
+    - Data Cataloging & Schema Management
+    - SQL Query Optimization
+    - Python Development
 
 Architecture
         OpenAQ API
